@@ -1,0 +1,955 @@
+* {
+  text-decoration: none;
+}
+main {
+  padding-top: 100px;
+}
+/* HEADER */
+/* find a way to lock nav bar */
+
+
+#header{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.header-brand{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+header nav ul {
+  display: inline-block;
+  margin: 0 auto;
+  width: fit-content; 
+}
+header nav ul li{
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+.header-placeholder {
+  display: none;
+}
+
+/* DESKTOP STYLING */
+@media only screen and (min-width: 1000px)
+{
+ .header-brand {
+  margin: 31px 0;
+  text-align: left;
+  line-height: 38px;
+  padding: 0 20px 0 40px;
+  border-right: 3px solid #111;
+  float: left;
+  }
+  header nav ul {
+  margin: 20px 0px 0px 20px;
+  float: left;
+  }
+
+
+.header-placeholder {
+  display: block;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+  line-height: 38px;
+  border: 1px solid #111;
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  padding: 0 20px;
+  }
+
+  .header-placeholder:hover {
+  display: block;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  line-height: 38px;
+  border: 1px solid #111;
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  padding: 0 20px;
+  }
+/*bottom*/  
+}  
+/*INDEX*/
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: pink; /* replace with background-image */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+.index-banner h2 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #111;
+  line-height: 70px;
+}
+.index-banner h1 {
+  font-family: serif;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  text-shadow: 2px 2px 8px #111;
+  line-height: 60px;
+}
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+.index-links div h3 {
+  font-family: sans-serif;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 100px;
+}
+/* DESKTOP STYLING */
+@media only screen and (min-width: 1000px){
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 250px;
+  }
+  .index-banner {
+    height: 450px;
+  }
+  .index-banner h1 {
+    disply: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+  .index-links {
+    overflow: hidden;
+  }
+  .index-boxlink-square {
+    width: calc(25% - 20px) !important;
+  }
+   .index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+  .index-links div h3 {
+    line-height: 200px;
+ }
+  /* BOTTOM */
+}
+
+
+/* GALLERY 
+.gallery-links-h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 20px;
+}
+.gallery-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-bottom:-1000px;
+}
+.gallery-img {
+  flex-basis: 300px;
+  margin: 10px;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+
+.spans{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  position: center;
+  padding: 20px;
+  padding-bottom: 8px;
+  padding-right: 26px;
+  box-shadow: 0px 8px 6px -3px #777;
+}
+i{
+  background-color:black;
+}
+  
+.fas{
+  
+  color: white;
+    border-radius: 50px 50px 50px 50px;
+   padding-left: 17px;
+   margin-top: 5px;
+   margin-bottom: 2px; 
+   font-size: 25px; 
+   object-fit: contain; 
+}
+@media only screen and (min-width: 762px) {
+  .gallery-links-h2 {
+    font-size: 28px;
+  }
+  .gallery-img {
+    flex-basis: 905;
+  }
+  /* bottom */
+}
+/*CASES
+.cases-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.cases-links h2{
+  font-family: sans-serif;
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.cases-links .cases-link p{
+  padding-top: 30%;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cases-links .cases-link{
+  float: left;
+  width: 230px;
+  height: 230px;
+  margin: 20px 10px 0px;
+  background-color: #e3e3e3;
+}
+.contact-link {
+  width: 230px;
+  height: 230px;
+  margin: 20px 10px 0px;
+  background-color: #e3e3e3;
+}
+.contact-box {
+  width: 100%;
+  height: 230px;
+  margin: 20px 10px 0px;
+  background-color: #e3e3e3;
+
+}
+.contact-box h2 {
+  text-align: center;
+  line-height: 90px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.contact-box p {
+  text-align: center;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+*/
+/* FOOTER
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+footer ul{
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+footer ul li{
+  display: block;
+  list-style: none;
+  width: 50%;
+}
+footer ul li a{
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+}
+.footer-links-cases {
+  display: none;
+}
+.footer-sm {
+  width: 50px; 
+  float: right;
+}
+.fotter-sm img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* DESKTOP SETTINGS */
+@media only screen and (min-width: 1000px){
+  .footer-links-cases {
+    display: block;
+  }
+  footer ul {
+    padding-right: 30px;
+  }
+  footer ul li p {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  
+  /* BOTTOM */
+}
+
+/*hamburger*/
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* make it look decent enough */
+  color: #cdcdcd;
+  /*font-family: "Avenir Next", "Avenir", sans-serif;*/
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+/*
+a:hover
+{
+  color: tomato;
+}*/
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: black;
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  right: -90px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's fade it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #menu {
+    transform: none;
+    opacity: 0;
+
+    transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+p {
+  color: #666;
+}
+strong{
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.container{
+ display: inline-block;
+ display: -webkit-flex;
+ flex-flow: wrap;
+ -webkit-flex-flow: wrap;
+ align-items: center;
+ -webkit-align-items: center;
+ float: center;
+  width: 70%;
+  margin: 1% auto;
+  margin-top: -500px;
+  margin-left: 20%;
+}
+
+.item {
+  background-color: #fff;
+  height: 150px;
+  width: 100px;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 5px;
+  order: 1;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.name {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+  font-weight: 200%;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: -30px;
+  padding: 5px 0;
+  padding-top: 10px;
+}
+
+/*.one {
+  background: url(http://whobackwhen.com/wp-content/uploads/WhoBackWhen-Doctor-Who-DoctorWho-DrWho-First-Doctor-1st-William-Hartnell.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.one:hover {
+  background: url(http://www.doctorwhotv.co.uk/wp-content/uploads/Susan-Foreman-Carole-Ann-Ford.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.two {
+  background: url(http://vignette3.wikia.nocookie.net/tardis/images/e/ea/SecondAndRecorder.jpg/revision/latest?cb=20101031134628) no-repeat center;
+  background-size: cover;
+}
+
+.three {
+  background: url(https://www.peter-capaldi-news.com/wp-content/uploads/2015/06/JohnPertwee.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.four {
+  background: url(http://images4.fanpop.com/image/photos/22400000/The-Fourth-Doctor-the-fourth-doctor-22491658-800-600.png) no-repeat center;
+  background-size: cover;
+}
+
+.four:hover {
+  background: url(http://www.doctorwhotv.co.uk/wp-content/uploads/sarah-jane-sladen-wedding-570x380.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.five {
+  background: url(http://www.cultbox.co.uk/wp-content/uploads/2014/06/Doctor-Who-Peter-Davison-Fifth-Doctor.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.six {
+  background: url(https://upload.wikimedia.org/wikipedia/en/4/4b/Sixth_Doctor_%28Doctor_Who%29.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.seven {
+  background: url(https://1.bp.blogspot.com/-uDpmdMb_5Ug/TdDUb0MHltI/AAAAAAAAC4U/SMnoM2dAVyE/s1600/sylvester_mccoy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.eight {
+  background: url(http://nerdist.com/wp-content/uploads/2015/07/Eighth-Doctor-Comics-Featured-071315.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+.wd {
+  background: url(https://i.ytimg.com/vi/FxdzcRQ45Fc/maxresdefault.jpg) no-repeat 80%;
+  background-size: cover;
+}
+/*
+.nine {
+  background: url(http://i4.mirror.co.uk/incoming/article143016.ece/ALTERNATES/s615/Christopher-Eccleston-as-Doctor-Who-2011.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.nine:hover {
+  background: url(https://vignette.wikia.nocookie.net/tardis/images/b/b7/The_Moment.jpg/revision/latest?cb=20131125192641) no-repeat center;
+background-size: cover;
+}
+*/
+.ten {
+  background: url(D:/WEBTUTE/images/hand-drawn.jpg) no-repeat center; 
+  background-size: cover;
+  width: 200px;
+}
+
+.ten:hover {
+  background: url(D:/WEBTUTE/images/hand-drawn.jpg) no-repeat center; 
+  background-size: cover;
+  cursor: pointer;
+  width: 200px;
+}
+
+.eleven {
+  background: url(D:/WEBTUTE/images/developer.jpg) no-repeat center;
+  background-size: cover;
+  width: 200px;
+}
+
+.eleven:hover {
+  background: url(D:/WEBTUTE/images/developer.jpg) no-repeat center;
+  background-size: cover;
+  width: 200px;
+}
+
+.twelve {
+  background: url(D:/WEBTUTE/images/hacked.png) no-repeat center;
+  background-size: cover;
+  width: 200px;
+}
+
+.thirteen {
+  background: url(D:/WEBTUTE/images/hacked.png) no-repeat center;
+  background-size: cover;
+  width: 200px;
+}
+
+
+
+
+
+#orangeUI {
+  width: 510px;
+  height: 220px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+
+/****************************
+  Menu
+****************************/
+nav {
+  padding-bottom: 60px;
+}
+.menu li {
+  float: left;
+}
+.menu li:first-child {
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+.menu li:last-child {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+.menu li,
+.pagenation li {
+  position: relative;
+  padding: 10px 30px;
+  text-decoration:none;
+  color: #7a7a7a;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  border-right: 1px solid #dfdfdf;
+  border-left: 1px solid #fff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #dedede));
+  background-image: -webkit-linear-gradient(#f9f9f9, #dedede);
+  background-image: -moz-linear-gradient(#f9f9f9, #dedede);
+  background-image: -o-linear-gradient(#f9f9f9, #dedede);
+  background-image: linear-gradient(#f9f9f9, #dedede);
+  -webkit-box-shadow: inset 0px 1px 0 white, 0 1px 0 rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: inset 0px 1px 0 white, 0 1px 0 rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0px 1px 0 white, 0 1px 0 rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.14);
+}
+.menu li:hover,
+.menu li.hover,
+.pagenation li:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7f7f7), color-stop(100%, #cdcdcd));
+  background-image: -webkit-linear-gradient(#f7f7f7, #cdcdcd);
+  background-image: -moz-linear-gradient(#f7f7f7, #cdcdcd);
+  background-image: -o-linear-gradient(#f7f7f7, #cdcdcd);
+  background-image: linear-gradient(#f7f7f7, #cdcdcd);
+  cursor: pointer;
+}
+.menu  li:active {
+  border: none;
+  color: #9b9b9b;
+  border-right: 1px solid #cce4eb;
+  border-left: 1px solid #f0f7f9;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dedede), color-stop(100%, #f7f7f7));
+  background-image: -webkit-linear-gradient(#dedede, #f7f7f7);
+  background-image: -moz-linear-gradient(#dedede, #f7f7f7);
+  background-image: -o-linear-gradient(#dedede, #f7f7f7);
+  background-image: linear-gradient(#dedede, #f7f7f7);
+  -webkit-box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.3), inset 0px 0px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.9), 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.3), inset 0px 0px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.9), 0 -1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.3), inset 0px 0px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.9), 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+.menu .current,
+.menu .current:hover,
+.pagenation .current,
+.pagenation .current:hover {
+  color: #fff;
+  text-shadow: 0 -1px 0 #b65228;
+  border-right: 1px solid #e47327;
+  border-left: 1px solid #f1a154;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1a154), color-stop(100%, #e47327));
+  background-image: -webkit-linear-gradient(#f1a154, #e47327);
+  background-image: -moz-linear-gradient(#f1a154, #e47327);
+  background-image: -o-linear-gradient(#f1a154, #e47327);
+  background-image: linear-gradient(#f1a154, #e47327);
+  -webkit-box-shadow: inset 0px 1px 0 #f1a154, 0 1px 0 rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: inset 0px 1px 0 #f1a154, 0 1px 0 rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0px 1px 0 #f1a154, 0 1px 0 rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.14);
+}
+.arrow-down,
+.arrow-shadow {
+  position: absolute;
+  left: 45px;
+  bottom: -7px;
+  z-index: 5;
+  display: none;
+  width: 0; 
+  height: 0; 
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #e47327;
+}
+.menu .current .arrow-down {
+  display: block;
+}
+.arrow-shadow {
+  left: 44px;
+  bottom: -8px;
+  z-index: 4;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid rgba(0, 0, 0, 0.45);
+}
+.menu .current .arrow-shadow {
+  display: block;
+}
+
+/****************************
+  Breadcrumb
+****************************/
+.breadcrumbs{
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.breadcrumbs li{
+  position: relative;
+  float: left;
+  margin: 0.5em 0 1em;
+}
+.breadcrumbs a{
+  position: relative;
+  z-index: 3;
+  padding: 0.65em 1em;
+  margin-right: 25px;
+  float: left;
+  text-decoration: none;
+  color: #7a7a7a;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+  position: relative;
+  background-image: -moz-linear-gradient(left, #f9f9f9 0%, #dedede 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,#f9f9f9), color-stop(100%,#dedede));
+  background-image: -webkit-linear-gradient(left, #f9f9f9 0%,#dedede 100%);
+  background-image: -o-linear-gradient(left, #f9f9f9 0%,#dedede 100%);
+  background-image: -ms-linear-gradient(left, #f9f9f9 0%,#dedede 100%);
+  background-image: linear-gradient(to right, #f9f9f9 0%,#dedede 100%);
+}
+
+.breadcrumbs a:hover{
+  background-image: -moz-linear-gradient(left, #efefef 0%, #d6d6d6 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,#efefef), color-stop(100%,#d6d6d6));
+  background-image: -webkit-linear-gradient(left, #efefef 0%, #d6d6d6 100%);
+  background-image: -o-linear-gradient(left, #efefef 0%, #d6d6d6 100%);
+  background-image: -ms-linear-gradient(left, #efefef 0%, #d6d6d6 100%);
+  background-image: linear-gradient(to right, #efefef 0%, #d6d6d6 100%);
+}
+
+.breadcrumbs a::before{
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 50%; 
+  margin-top: -1.25em;   
+  border-width: 1.3em 0 1.3em 1.3em;
+  border-style: solid;
+  border-color: #f9f9f9 #f9f9f9 #f9f9f9 transparent;
+  left: -1.25em;
+}
+.breadcrumbs a:hover::before{
+  border-color: #efefef #efefef #efefef transparent;
+}
+.breadcrumbs a::after{
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 50%; 
+  margin-top: -1.25em;   
+  border-top: 1.3em solid transparent;
+  border-bottom: 1.3em solid transparent;
+  border-left: 1.3em solid #dedede;
+  right: -1.29em;
+}
+.breadcrumbs a:hover::after{
+  border-left-color: #d6d6d6;
+}
+.breadcrumbs .current,
+.breadcrumbs .current:hover{
+  color: #fff;
+  text-shadow: 0 -1px 0 #b65228;
+  background-image: -moz-linear-gradient(left, #f1a154 0%, #e47327 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,#f1a154), color-stop(100%,#e47327));
+  background-image: -webkit-linear-gradient(left, #f1a154 0%,#e47327 100%);
+  background-image: -o-linear-gradient(left, #f1a154 0%,#e47327 100%);
+  background-image: -ms-linear-gradient(left, #f1a154 0%,#e47327 100%);
+  background-image: linear-gradient(to right, #f1a154 0%,#e47327 100%);
+}
+.breadcrumbs a.current::before,
+.breadcrumbs a.current:hover::before {
+  border-color: #f1a154 #f1a154 #f1a154 transparent;
+}
+.breadcrumbs a.current::after,
+.breadcrumbs a.current:hover::after {
+  border-left: 1.3em solid #e47327;
+}
+.bread-shadow {
+  position: absolute;
+  top: 1px;
+  z-index: 2;
+  padding: 0.675em 1em;
+  margin-right: 25px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bread-shadow::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 50%; 
+  margin-top: -1.25em;   
+  border-width: 1.3em 0 1.3em 1.3em;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) transparent;
+  left: -1.25em;
+}
+.bread-shadow::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 50%; 
+  margin-top: -1.25em;   
+  border-top: 1.3em solid transparent;
+  border-bottom: 1.3em solid transparent;
+  border-left: 1.3em solid rgba(0, 0, 0, 0.2);
+  right: -1.29em;
+}
+
+/****************************
+  Pagenation
+****************************/
+.pagenation li,
+.pagenation li.current {
+  display: inline;
+  padding: 7px 12px;
+  border: none;
+  float: center;
+}
+.pagenation li:hover,
+.pagenation li.current:hover {
+  border: none;
+}
+.pagenation li.dot {
+  border: none;
+  background: none;
+  box-shadow: none;
+  cursor: default;
+}
+.pagenation ul li:first-child {
+  -webkit-border-radius: 7px 0 0 7px;
+  -moz-border-radius: 7px 0 0 7px;
+  -ms-border-radius: 7px 0 0 7px;
+  -o-border-radius: 7px 0 0 7px;
+  border-radius: 7px 0 0 7px;
+}
+.pagenation ul li:last-child {
+  -webkit-border-radius: 0 7px 7px 0;
+  -moz-border-radius: 0 7px 7px 0;
+  -ms-border-radius: 0 7px 7px 0;
+  -o-border-radius: 0 7px 7px 0;
+  border-radius: 0 7px 7px 0;
+}

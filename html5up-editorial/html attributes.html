@@ -1,0 +1,918 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HTML Attributes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>HTML</strong></a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+							<!-- Content -->
+								<section>
+								<hr class="major">
+							<p>HTML attributes provide additional information about HTML elements.</p>
+							<hr class="major">
+									<header class="main">
+										
+										<h1>HTML Attributes</h1>
+									</header>
+							<ul class="list">
+								
+									<li>All HTML elements can have attributes</li>
+									<li>Attributes provide additional information about elements</li>
+									<li>Attributes are always specified in the start tag</li>
+									<li>Attributes usually come in name/value pairs like: name="value"</li>
+								
+							</ul>
+									<br />
+
+							
+								
+			<!-- Content -->
+			<h2 id="content">The href Attribute</h2>
+			<p>The
+				<span class="blue">&lt;</span><span class="red">a</span><span class="blue">&gt;</span>
+					 tag defines a hyperlink. The 
+				<span class="blue">&lt;</span><span class="red">href</span><span class="blue">&gt;</span>
+					 attribute specifies the URL of the page the link goes to: 
+				
+			</p>
+															
+		<h2 id="content">Example</h2>
+			<div class="box">
+				<blockquote>
+
+					<p>
+						<span class="blue">&lt;</span><span style ="color:brown">a</span>
+
+						<span class="red">href</span><span class="blue">="https://www.w3schools.com"</span>
+
+						<span class="blue">&gt;</span> Visit W3School
+						<span class="blue">&lt;</span><span style ="color:brown">/a</span><span class="blue">&gt;</span>			
+					</p>
+									
+				</blockquote>
+			</div>
+	
+				<hr class="major" />
+					<h2 id="content">The src Attribute</h2>
+						<p>
+							The <span class="bg"><span class="blue">&lt;</span><span class="red">img</span><span class="blue">&gt;</span></span> &nbsp;tag is used to embed an image in an HTML page.
+
+							The <span class="bg"><span class="blue">&lt;</span><span class="red">src</span><span class="blue">&gt;</span></span> &nbsp;attribute specifies the path to the image to be displayed:
+
+									
+						</p>
+									<div class="box">
+										<blockquote>
+									<p>
+										
+										<span class="blue">&lt;</span><span class="brown">img</span>
+											
+										<span class="red">src </span>=img_girl.jpg<span class="blue">&gt;
+										</span>
+											
+									</p>
+									
+										</blockquote>
+									</div>
+
+					
+						<p>
+							There are two ways to specify the URL in the <span class="bg"><span class="blue">&lt;</span><span class="red">src</span><span class="blue">&gt;</span></span> &nbsp;attributes.	
+
+							<p>
+								
+									<strong>1. Absolute URL -</strong> Links to an external image that is hosted on another website.<br /> Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+									<p><strong><span class="font-size">Notes:</strong></span> External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws.<br /> In addition, you cannot control external images; it can suddenly be removed or changed.
+										<br /><br />
+									
+									<strong>2. Relative URL -</strong> Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+									<p><strong><span class="font-size">Tip:</strong></span> It is almost always best to use relative URLs. They will not break if you change domain.<br /> 
+							</p>
+
+						</p>
+							
+			<hr class="major" />
+					<h2 id="content">The width and height Attributes</h2>
+						<p>
+							The <span class="bg"><span class="blue">&lt;</span><span class="red">img</span><span class="blue">&gt;</span></span> &nbsp; tag should also contain the
+							    <span class="red">width</span> and
+							     <span class="red">height</span> &nbsp;attributes, which specifies the width and height of the image (in pixels):
+
+									
+						</p>
+					<h2 id="content">Example</h2>
+						<div class="box">
+							<blockquote>
+								<p>
+										
+									<span class="blue">&lt;</span><span class="brown">img</span>
+											
+									<span class="red">src </span> <span class="blue">=img_girl.jpg</span>
+									<span class="red">width= </span>
+										<span class="blue">"500"</span>
+								    <span class="red">height= </span>
+										 <span class="blue">"600"</span><span class="blue">&gt;</span>	
+									</p>
+									
+										</blockquote>
+									</div>	
+
+			<hr class="major" />
+<h2 id="content">The alt Attribute</h2>
+<p>The required <span class="bg"><span class="red">alt</span></span>&nbsp;attribute for the
+<span class="bg"><span class="blue">&lt;<span class="red">img</span></span><span class="blue">&gt;</span></span>&nbsp; tag specifies an alternate text for an image, if the image for some reason cannot be displayed. <br />This can be due to slow connection, or an error in the <span class="bg"><span class="red">src</span></span>&nbsp;attribute, or if the user uses a screen reader.
+
+									
+</p>
+					<h2 id="content">Example</h2>
+						<div class="box">
+							<blockquote>
+								<p>
+										
+									<span class="blue">&lt;</span><span class="brown">img</span>
+											
+									<span class="red">src </span> <span class="blue">=img_girl.jpg</span>
+									<span class="red">alt</span>
+										<span class="blue">="Girl with a jacket</span>
+								    <span class="blue">&gt;</span>	
+									</p>
+									
+										</blockquote>
+									</div>
+
+<h2 id="content">Example</h2>
+<p class="font-size">See what happens if we try to display an image that does not exist:<br /></p>
+						<div class="box">
+							<blockquote>
+								<p>
+										
+									<span class="blue">&lt;</span><span class="brown">img</span>
+											
+									<span class="red">src </span> <span class="blue">=img_girl.jpg</span>
+									<span class="red">alt</span>
+										<span class="blue">="Girl with a jacket</span>
+								    <span class="blue">&gt;</span>	
+									</p>
+									
+										</blockquote>
+									</div>
+
+<hr class="major" />
+<h2 id="content">The style Attribute</h2>
+<p>The <span class="bg"><span class="red"> style</span></span>&nbsp;attribute is used to add styles to an element, such as color, font, size, and more.
+
+									
+</p>
+	
+	<h2 id="content">Example</h2>
+		<div class="box">
+			<blockquote>
+				<p>
+										
+					<span class="blue">&lt;</span><span class="brown">p</span>
+											
+					<span class="red">style </span> <span class="blue">="color:red;"</span><span class="blue">&gt;</span>
+					This is a red paragraph.
+					<span class="blue">&lt;</span><span class="brown">p</span><span class="blue">&gt;</span>	
+				</p>
+									
+			</blockquote>
+		</div>
+						
+<hr class="major" />
+<h2 id="content">The lang Attribute</h2>
+<p>You should always include the <span class="bg"><span class="red"> lang</span></span>&nbsp;attribute inside the
+<span class="blue">&lt;</span><span class="brown">html</span><span class="blue">&gt;</span>
+tag, to declare the language of the Web page. 
+<br />This is meant to assist search engines and browsers.
+<br />
+The following example specifies English as the language:
+									
+</p>
+
+<div class="box">
+	<blockquote>
+	<p>
+		<span class="blue">&lt;</span><span class="red">!DOCTYPE</span> <span class="brown">html</span><span class="blue">&gt;</span>
+										<br/>
+
+		<span class="blue">&lt;</span><span class="brown">html </span><span class="red">lang</span><span class="blue">="en"</span><span class="blue">&gt;</span><br />
+											
+		<span class="blue">&lt;</span><span class="red">body</span><span class="blue">&gt;</span><br />
+
+		<b>...</b><br />									
+		<span class="blue">&lt;</span><span class="red">/body</span><span class="blue">&gt;</span><br/>
+											
+		<span class="blue">&lt;</span><span class="red">/html</span><span class="blue">&gt;</span><br/>
+	</p>
+	</blockquote>
+</div>		
+
+<p>Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+<br /><br />
+The following example specifies English as the language and United States as the country:
+</p>
+
+<div class="box">
+	<blockquote>
+	<p>
+		<span class="blue">&lt;</span><span class="red">!DOCTYPE</span> <span class="brown">html</span><span class="blue">&gt;</span>
+										<br/>
+
+		<span class="blue">&lt;</span><span class="brown">html </span><span class="red">lang</span><span class="blue">="en-US"</span><span class="blue">&gt;</span><br />
+											
+		<span class="blue">&lt;</span><span class="red">body</span><span class="blue">&gt;</span><br />
+
+		<b>...</b><br />									
+		<span class="blue">&lt;</span><span class="red">/body</span><span class="blue">&gt;</span><br/>
+											
+		<span class="blue">&lt;</span><span class="red">/html</span><span class="blue">&gt;</span><br/>
+	</p>
+</blockquote>	
+</div>
+
+
+<hr class="major" />
+<h2 id="content">The title Attribute</h2>
+<p>The&nbsp;<span class="bg"><span class="red"> title </span></span>&nbsp;attribute defines some extra information about an element.
+<br />
+The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+									
+</p>
+	
+	<h2 id="content">Example</h2>
+		<div class="box">
+			<blockquote>
+				<p>
+										
+					<span class="blue">&lt;</span><span class="brown">p</span>
+											
+					<span class="red">title </span> <span class="blue">="I am a tooltip"</span><span class="blue">&gt;</span>
+					This is a red paragraph.
+					<span class="blue">&lt;</span><span class="brown">p</span><span class="blue">&gt;</span>	
+				</p>
+									
+			</blockquote>
+		</div>
+
+<hr class="major" />
+<h2 style="font-size: 35px">We Suggest: Always Use Lowercase Attributes</h2>
+<p>The HTML standard does not require lowercase attribute names.
+<br />
+The title attribute (and all other attributes) can be written with uppercase or lowercase like <strong>title
+</strong> or <strong>TITLE.</strong>
+<br />
+However, W3C ,<strong>recommends</strong> lowercase attributes in HTML, and <strong>demands</strong> lowercase attributes for stricter document types like XHTML.
+<br />
+</p>
+
+<p class="bgcolor font-size">
+	At W3Schools we always use lowercase attribute names.
+</p>
+
+<hr class="major" />
+<h2 style="font-size: 35px">We Suggest: Always Quote Attribute Values</h2>
+<p>The HTML standard does not require quotes around attribute values.
+<br />
+However, W3C <strong>recommends</strong> quotes in HTML, and <strong>demands</strong> quotes for stricter document types like XHTML.
+</p>
+			
+<h2 id="content">Good:</h2>
+			<div class="box">
+				<blockquote>
+
+					<p>
+						<span class="blue">&lt;</span><span class="brown">a</span>
+
+						<span class="red">href</span><span class="blue">="https://www.w3schools.com"</span>
+
+						<span class="blue">&gt;</span> Visit W3School
+						<span class="blue">&lt;</span><span style ="color:brown">/a</span><span class="blue">&gt;</span>			
+					</p>
+									
+				</blockquote>
+			</div>
+
+<h2 id="content">Bad:</h2>
+			<div class="box">
+				<blockquote>
+
+					<p>
+						<span class="blue">&lt;</span><span class="brown">a</span>
+
+						<span class="red">href</span><span class="blue">=https://www.w3schools.com</span>
+
+						<span class="blue">&gt;</span> Visit W3School
+						<span class="blue">&lt;</span><span style ="color:brown">/a</span><span class="blue">&gt;</span>			
+					</p>
+									
+				</blockquote>
+			</div>
+					
+<p>Sometimes you have to use quotes. This example will not display the title attribute correctly, because it contains a space:
+</p>
+
+<h2 id="content">Example</h2>
+<div class="box">
+				<blockquote>
+
+					<p>
+						<span class="blue">&lt;</span><span class="brown">p</span>
+
+						<span class="red">title</span><span class="blue">=About</span>
+
+						 <span class="red">W3Schools</span> <span class="blue">&gt;</span>			
+					</p>
+									
+				</blockquote>
+			</div>
+
+<p class="bgcolor font-size">
+	 At W3Schools we always use quotes around attribute values
+</p>
+
+<hr class="major" />
+		<h2 style="font-size: 35px">Single or Double Quotes?</h2>
+			<p>
+				Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+					<br />
+				In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+
+									
+						</p>
+		<div class="box">
+			<blockquote>
+				<p>
+										
+					<span class="blue">&lt;</span><span class="brown">p</span>
+											
+					<span class="red">title </span> <span class="blue">='John "ShotGun" Nelson'</span>
+					<span class="blue">&gt;</span>
+											
+				</p>
+									
+			</blockquote>
+
+		</div>
+
+		<p>Or vice versa:</p>
+
+		<div class="box">
+			<blockquote>
+				<p>
+										
+					<span class="blue">&lt;</span><span class="brown">p</span>
+											
+					<span class="red">title </span> <span class="blue">="John 'ShotGun' Nelson"</span>
+					<span class="blue">&gt;</span>
+											
+				</p>
+									
+			</blockquote>
+
+		</div>
+
+	<hr class="major">
+	<h2 id="content">Chapter Summary</h2>
+	<ul class="list">
+								
+		<li>All HTML elements can have attributes.</li>
+		<li>The <span class="bg"><span class="red">href</span></span> attribute of <span class="bg"><span class="blue">&lt;</span><span class="red">a</span><span class="blue">&gt;</span>
+		</span>specifies the URL of the page the link goes to.</li>
+
+		<li>The <span class="bg"><span class="red">src</span></span> attribute of <span class="bg"><span class="blue">&lt;</span><span class="red">img</span><span class="blue">&gt;</span></span> specifies the path to the image to be displayed.</li>
+
+		<li>The <span class="bg"><span class="red">width</span></span> and <span class="bg"><span class="red">height</span></span> attributes of <span class="bg"><span class="blue">&lt;</span><span class="red">img</span><span class="blue">&gt;</span></span> provide size information for images.</li>
+
+		<li>The <span class="bg"><span class="red">alt</span></span> attribute of <span class="bg"><span class="blue">&lt;</span><span class="red">img</span><span class="blue">&gt;</span></span> provides an alternate text for an image.</li>
+
+		<li>The <span class="bg"><span class="red">style</span></span> attribute is used to add styles to an element, such as color, font, size, and more</li>
+		<li>The <span class="bg"><span class="red">lang</span></span> attribute of the <span class="bg"><span class="blue">&lt;</span><span class="red">html</span><span class="blue">&gt;</span></span> tag declares the language of the Web page.</li>
+
+		<li>The <span class="bg"><span class="red">title</span></span> attribute defines some extra information about an element.</li>
+
+								
+	</ul>
+		<br />
+
+								<div class="row">
+											<div class="col-6 col-12-small">
+												<!--<h3>Magna odio tempus commodo</h3>
+												<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan.</p>-->
+											</div>
+
+										
+											<div class="col-6 col-12-small">
+												<!--<h3>Magna odio tempus commodo</h3>
+												<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan.</p>-->
+											</div>
+											<!-- Break -->
+											<div class="col-4 col-12-medium">
+												<!--<h3>Interdum sapien gravida</h3>
+												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
+											</div>
+											<div class="col-4 col-12-medium">
+												<h3>Faucibus consequat lorem</h3>
+												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>-->
+											</div>
+											<div class="col-4 col-12-medium">
+												<!--<h3>Accumsan montes viverra</h3>
+												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>-->
+											</div>
+										</div>
+
+									
+										
+										
+									
+
+									<!-- Elements -->
+										<!--<h2 id="elements">Elements</h2>
+										<div class="row gtr-200">
+											<div class="col-6 col-12-medium">
+
+												 Text stuff 
+													<h3>Text</h3>
+													<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+													This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+													This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
+													Finally, this is a <a href="#">link</a>.</p>
+													<hr />
+													<h2>Heading Level 2</h2>
+													<h3>Heading Level 3</h3>
+													<h4>Heading Level 4</h4>
+													<hr />
+													<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+
+												 Lists 
+													<h3>Lists</h3>
+													<div class="row">
+														<div class="col-6 col-12-small">
+
+															<h4>Unordered</h4>
+															<ul>
+																<li>Dolor etiam magna etiam.</li>
+																<li>Sagittis lorem eleifend.</li>
+																<li>Felis dolore viverra.</li>
+															</ul>
+
+															<h4>Alternate</h4>
+															<ul class="alt">
+																<li>Dolor etiam magna etiam.</li>
+																<li>Sagittis lorem eleifend.</li>
+																<li>Felis feugiat viverra.</li>
+															</ul>
+
+														</div>
+														<div class="col-6 col-12-small">
+
+															<h4>Ordered</h4>
+															<ol>
+																<li>Dolor etiam magna etiam.</li>
+																<li>Etiam vel lorem sed viverra.</li>
+																<li>Felis dolore viverra.</li>
+																<li>Dolor etiam magna etiam.</li>
+																<li>Etiam vel lorem sed viverra.</li>
+																<li>Felis dolore viverra.</li>
+															</ol>
+
+															<h4>Icons</h4>
+															<ul class="icons">
+																<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+																<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+																<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+																<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+																<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+																<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+															</ul>
+
+														</div>
+													</div>
+													<h4>Definition</h4>
+													<dl>
+														<dt>Item1</dt>
+														<dd>
+															<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+														</dd>
+														<dt>Item2</dt>
+														<dd>
+															<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+														</dd>
+														<dt>Item3</dt>
+														<dd>
+															<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+														</dd>
+													</dl>
+
+													<h4>Actions</h4>
+													<ul class="actions">
+														<li><a href="#" class="button primary">Default</a></li>
+														<li><a href="#" class="button">Default</a></li>
+													</ul>
+													<ul class="actions small">
+														<li><a href="#" class="button primary small">Small</a></li>
+														<li><a href="#" class="button small">Small</a></li>
+													</ul>
+													<div class="row">
+														<div class="col-6 col-12-small">
+															<ul class="actions stacked">
+																<li><a href="#" class="button primary">Default</a></li>
+																<li><a href="#" class="button">Default</a></li>
+															</ul>
+														</div>
+														<div class="col-6 col-12-small">
+															<ul class="actions stacked">
+																<li><a href="#" class="button primary small">Small</a></li>
+																<li><a href="#" class="button small">Small</a></li>
+															</ul>
+														</div>
+														<div class="col-6 col-12-small">
+															<ul class="actions stacked">
+																<li><a href="#" class="button primary fit">Default</a></li>
+																<li><a href="#" class="button fit">Default</a></li>
+															</ul>
+														</div>
+														<div class="col-6 col-12-small">
+															<ul class="actions stacked">
+																<li><a href="#" class="button primary small fit">Small</a></li>
+																<li><a href="#" class="button small fit">Small</a></li>
+															</ul>
+														</div>
+													</div>
+
+													<h4>Pagination</h4>
+													<ul class="pagination">
+														<li><span class="button disabled">Prev</span></li>
+														<li><a href="#" class="page active">1</a></li>
+														<li><a href="#" class="page">2</a></li>
+														<li><a href="#" class="page">3</a></li>
+														<li><span>&hellip;</span></li>
+														<li><a href="#" class="page">8</a></li>
+														<li><a href="#" class="page">9</a></li>
+														<li><a href="#" class="page">10</a></li>
+														<li><a href="#" class="button">Next</a></li>
+													</ul>
+
+												 Blockquote 
+													<h3>Blockquote</h3>
+													<blockquote>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.</blockquote>
+
+												 Table
+													<h3>Table</h3>
+
+													<h4>Default</h4>
+													<div class="table-wrapper">
+														<table>
+															<thead>
+																<tr>
+																	<th>Name</th>
+																	<th>Description</th>
+																	<th>Price</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Item1</td>
+																	<td>Ante turpis integer aliquet porttitor.</td>
+																	<td>29.99</td>
+																</tr>
+																<tr>
+																	<td>Item2</td>
+																	<td>Vis ac commodo adipiscing arcu aliquet.</td>
+																	<td>19.99</td>
+																</tr>
+																<tr>
+																	<td>Item3</td>
+																	<td> Morbi faucibus arcu accumsan lorem.</td>
+																	<td>29.99</td>
+																</tr>
+																<tr>
+																	<td>Item4</td>
+																	<td>Vitae integer tempus condimentum.</td>
+																	<td>19.99</td>
+																</tr>
+																<tr>
+																	<td>Item5</td>
+																	<td>Ante turpis integer aliquet porttitor.</td>
+																	<td>29.99</td>
+																</tr>
+															</tbody>
+															<tfoot>
+																<tr>
+																	<td colspan="2"></td>
+																	<td>100.00</td>
+																</tr>
+															</tfoot>
+														</table>
+													</div>
+
+													<h4>Alternate</h4>
+													<div class="table-wrapper">
+														<table class="alt">
+															<thead>
+																<tr>
+																	<th>Name</th>
+																	<th>Description</th>
+																	<th>Price</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Item1</td>
+																	<td>Ante turpis integer aliquet porttitor.</td>
+																	<td>29.99</td>
+																</tr>
+																<tr>
+																	<td>Item2</td>
+																	<td>Vis ac commodo adipiscing arcu aliquet.</td>
+																	<td>19.99</td>
+																</tr>
+																<tr>
+																	<td>Item3</td>
+																	<td> Morbi faucibus arcu accumsan lorem.</td>
+																	<td>29.99</td>
+																</tr>
+																<tr>
+																	<td>Item4</td>
+																	<td>Vitae integer tempus condimentum.</td>
+																	<td>19.99</td>
+																</tr>
+																<tr>
+																	<td>Item5</td>
+																	<td>Ante turpis integer aliquet porttitor.</td>
+																	<td>29.99</td>
+																</tr>
+															</tbody>
+															<tfoot>
+																<tr>
+																	<td colspan="2"></td>
+																	<td>100.00</td>
+																</tr>
+															</tfoot>
+														</table>
+													</div>
+
+											</div>
+											<div class="col-6 col-12-medium">
+
+												 Buttons 
+													<h3>Buttons</h3>
+													<ul class="actions">
+														<li><a href="#" class="button primary">Primary</a></li>
+														<li><a href="#" class="button">Default</a></li>
+													</ul>
+													<ul class="actions">
+														<li><a href="#" class="button large">Large</a></li>
+														<li><a href="#" class="button">Default</a></li>
+														<li><a href="#" class="button small">Small</a></li>
+													</ul>
+													<ul class="actions">
+														<li><a href="#" class="button primary large">Large</a></li>
+														<li><a href="#" class="button primary">Default</a></li>
+														<li><a href="#" class="button primary small">Small</a></li>
+													</ul>
+													<ul class="actions fit">
+														<li><a href="#" class="button primary fit">Fit</a></li>
+														<li><a href="#" class="button fit">Fit</a></li>
+													</ul>
+													<ul class="actions fit small">
+														<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+														<li><a href="#" class="button fit small">Fit + Small</a></li>
+													</ul>
+													<ul class="actions">
+														<li><a href="#" class="button primary icon solid fa-search">Icon</a></li>
+														<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+													</ul>
+													<ul class="actions">
+														<li><span class="button primary disabled">Primary</span></li>
+														<li><span class="button disabled">Default</span></li>
+													</ul>
+
+												 Form
+													<h3>Form</h3>
+
+													<form method="post" action="#">
+														<div class="row gtr-uniform">
+															<div class="col-6 col-12-xsmall">
+																<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+															</div>
+															<div class="col-6 col-12-xsmall">
+																<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+															</div>
+														 Break 
+															<div class="col-12">
+																<select name="demo-category" id="demo-category">
+																	<option value="">- Category -</option>
+																	<option value="1">Manufacturing</option>
+																	<option value="1">Shipping</option>
+																	<option value="1">Administration</option>
+																	<option value="1">Human Resources</option>
+																</select>
+															</div>
+															 Break 
+															<div class="col-4 col-12-small">
+																<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+																<label for="demo-priority-low">Low</label>
+															</div>
+															<div class="col-4 col-12-small">
+																<input type="radio" id="demo-priority-normal" name="demo-priority">
+																<label for="demo-priority-normal">Normal</label>
+															</div>
+															<div class="col-4 col-12-small">
+																<input type="radio" id="demo-priority-high" name="demo-priority">
+																<label for="demo-priority-high">High</label>
+															</div>
+															 Break 
+															<div class="col-6 col-12-small">
+																<input type="checkbox" id="demo-copy" name="demo-copy">
+																<label for="demo-copy">Email me a copy</label>
+															</div>
+															<div class="col-6 col-12-small">
+																<input type="checkbox" id="demo-human" name="demo-human" checked>
+																<label for="demo-human">I am a human</label>
+															</div>
+														Break 												<div class="col-12">
+																<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+															</div>
+															Break 
+															<div class="col-12">
+																<ul class="actions">
+																	<li><input type="submit" value="Send Message" class="primary" /></li>
+																	<li><input type="reset" value="Reset" /></li>
+																</ul>
+															</div>
+														</div>
+													</form>
+
+												 Image 
+													<h3>Image</h3>
+
+													<h4>Fit</h4>
+													<span class="image fit"><img src="images/pic11.jpg" alt="" /></span>
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+															<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+															 Break 										<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+															 Break
+															<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+														</div>
+													</div>
+
+													<h4>Left &amp; Right</h4>
+													<p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+													<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+
+												Box 
+													<h3>Box</h3>
+													<div class="box">
+														<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum.</p>
+													</div>
+
+												 Preformatted Code 
+													<h3>Preformatted</h3>
+													<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';
+</code></pre>
+
+											</div>
+										</div>
+
+								</section>-->
+								<ul class="pagination">
+				<li><a href="html elements.html" class="button">Previous</a></li>
+														
+				<li style="float: right;"><a href="html headings.html" class="button">Next</a></li>
+			</ul>
+				<br />
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>HTML Tutorial</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">HTML Home</a></li>
+										<li><a href="html intro.html">HTML Introduction</a></li>
+										<li><a href="html editors.html">HTML Editors</a></li>
+										<li><a href="html basic.html">HTML Basic</a></li>
+										<li><a href="html elements.html">HTML Elements</a></li>
+										<li><a href="html attributes.html">HTML Attributes</a></li>
+										<li><a href="html headings.html">HTML Headings</a></li>
+										<li><a href="html paragraphs.html">HTML Paragraphs</a></li>
+										<li><a href="html styles.html">HTML Styles</a></li>
+										<li><a href="#">HTML Formatting</a></li>
+										<li><a href="#">HTML Quotations</a></li>
+										<li><a href="#">HTML Comments</a></li>
+										<li><a href="#">HTML Colours</a></li>
+										<li><a href="#">HTML CSS</a></li>
+										<li><a href="#">HTML Links</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Related Course</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<h2>CSS</h2>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<h2>JavaScript</h2>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<h2>SQL</h2>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="D:/WEBTUTE/html5up-phantom/submenu.html" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
