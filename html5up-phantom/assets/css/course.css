@@ -638,7 +638,7 @@ background-size: cover;
 }
 */
 .ten {
-  background: url(images/hand-drawn.jpg) no-repeat center; 
+  background: url(/images/hand-drawn.jpg) no-repeat center; 
   background-size: cover;
   width: 200px;
 }
