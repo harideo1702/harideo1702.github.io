@@ -695,6 +695,7 @@ ul {
 ****************************/
 nav {
   padding-bottom: 60px;
+  padding-left: 65px;
 }
 .menu li {
   float: left;
