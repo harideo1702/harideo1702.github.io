@@ -1323,3 +1323,186 @@ section {
     text-align-last: center;
   }
 }
+
+
+
+
+
+
+
+/*------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+p {
+  color: #666;
+}
+strong{
+  color: black;
+}
+
+
+.containers{
+ display: inline-block;
+ display: -webkit-flex;
+ flex-flow: wrap;
+ -webkit-flex-flow: wrap;
+ align-items: center;
+ -webkit-align-items: center;
+ float: center;
+  width: 65%;
+  margin: 1% auto;
+  margin-top: 220px;
+  margin-left: 18%;
+}
+
+.item {
+  background-color: #fff;
+  height: 200px;
+  width: 200%;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 5px;
+  order: 1;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.name {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+  font-weight: 200%;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: -30px;
+  padding: 5px 0;
+  padding-top: 10px;
+}
+
+/*.one {
+  background: url(http://whobackwhen.com/wp-content/uploads/WhoBackWhen-Doctor-Who-DoctorWho-DrWho-First-Doctor-1st-William-Hartnell.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.one:hover {
+  background: url(http://www.doctorwhotv.co.uk/wp-content/uploads/Susan-Foreman-Carole-Ann-Ford.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.two {
+  background: url(http://vignette3.wikia.nocookie.net/tardis/images/e/ea/SecondAndRecorder.jpg/revision/latest?cb=20101031134628) no-repeat center;
+  background-size: cover;
+}
+
+.three {
+  background: url(https://www.peter-capaldi-news.com/wp-content/uploads/2015/06/JohnPertwee.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.four {
+  background: url(http://images4.fanpop.com/image/photos/22400000/The-Fourth-Doctor-the-fourth-doctor-22491658-800-600.png) no-repeat center;
+  background-size: cover;
+}
+
+.four:hover {
+  background: url(http://www.doctorwhotv.co.uk/wp-content/uploads/sarah-jane-sladen-wedding-570x380.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.five {
+  background: url(http://www.cultbox.co.uk/wp-content/uploads/2014/06/Doctor-Who-Peter-Davison-Fifth-Doctor.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.six {
+  background: url(https://upload.wikimedia.org/wikipedia/en/4/4b/Sixth_Doctor_%28Doctor_Who%29.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.seven {
+  background: url(https://1.bp.blogspot.com/-uDpmdMb_5Ug/TdDUb0MHltI/AAAAAAAAC4U/SMnoM2dAVyE/s1600/sylvester_mccoy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.eight {
+  background: url(http://nerdist.com/wp-content/uploads/2015/07/Eighth-Doctor-Comics-Featured-071315.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+.wd {
+  background: url(https://i.ytimg.com/vi/FxdzcRQ45Fc/maxresdefault.jpg) no-repeat 80%;
+  background-size: cover;
+}
+/*
+.nine {
+  background: url(http://i4.mirror.co.uk/incoming/article143016.ece/ALTERNATES/s615/Christopher-Eccleston-as-Doctor-Who-2011.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.nine:hover {
+  background: url(https://vignette.wikia.nocookie.net/tardis/images/b/b7/The_Moment.jpg/revision/latest?cb=20131125192641) no-repeat center;
+background-size: cover;
+}
+*/
+.ten {
+  background: url(D:/WEBTUTE/images/hand-drawn.jpg) no-repeat center; 
+  background-size: cover;
+  width: 220px;
+}
+
+.ten:hover {
+  background: url(D:/WEBTUTE/images/hand-drawn.jpg) no-repeat center; 
+  background-size: cover;
+  cursor: pointer;
+  width: 220px;
+}
+
+.eleven {
+  background: url(D:/WEBTUTE/images/developer.jpg) no-repeat center;
+  background-size: cover;
+  width: 220px;
+}
+
+.eleven:hover {
+  background: url(D:/WEBTUTE/images/developer.jpg) no-repeat center;
+  background-size: cover;
+  width: 220px;
+}
+
+.twelve {
+  background: url(D:/WEBTUTE/images/hacked.png) no-repeat center;
+  background-size: cover;
+  width: 220px;
+}
+
+.thirteen {
+  background: url(D:/WEBTUTE/images/hacked.png) no-repeat center;
+  background-size: cover;
+  width: 220px;
+}
+
+
+
+
+#orangeUI {
+  width: 510px;
+  height: 220px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
