@@ -1342,12 +1342,8 @@ strong{
   color: black;
 }
 
-h1 {
-  text-align: center;
-  font-weight: lighter;
-}
 
-.container{
+.containers{
  display: inline-block;
  display: -webkit-flex;
  flex-flow: wrap;
@@ -1355,16 +1351,16 @@ h1 {
  align-items: center;
  -webkit-align-items: center;
  float: center;
-  width: 70%;
+  width: 65%;
   margin: 1% auto;
-  margin-top: -500px;
-  margin-left: 20%;
+  margin-top: 220px;
+  margin-left: 18%;
 }
 
 .item {
   background-color: #fff;
-  height: 150px;
-  width: 100px;
+  height: 200px;
+  width: 200%;
   justify-content: center;
   flex: 1 1 auto;
   margin: 10px;
@@ -1460,38 +1456,53 @@ background-size: cover;
 }
 */
 .ten {
-  background: url(https://i.ytimg.com/vi/FxdzcRQ45Fc/maxresdefault.jpg) no-repeat center; 
+  background: url(D:/WEBTUTE/images/hand-drawn.jpg) no-repeat center; 
   background-size: cover;
-  width: 200px;
+  width: 220px;
 }
 
 .ten:hover {
   background: url(D:/WEBTUTE/images/hand-drawn.jpg) no-repeat center; 
   background-size: cover;
   cursor: pointer;
-  width: 200px;
+  width: 220px;
 }
 
 .eleven {
   background: url(D:/WEBTUTE/images/developer.jpg) no-repeat center;
   background-size: cover;
-  width: 200px;
+  width: 220px;
 }
 
 .eleven:hover {
   background: url(D:/WEBTUTE/images/developer.jpg) no-repeat center;
   background-size: cover;
-  width: 200px;
+  width: 220px;
 }
 
 .twelve {
   background: url(D:/WEBTUTE/images/hacked.png) no-repeat center;
   background-size: cover;
-  width: 200px;
+  width: 220px;
 }
 
 .thirteen {
   background: url(D:/WEBTUTE/images/hacked.png) no-repeat center;
   background-size: cover;
-  width: 200px;
+  width: 220px;
+}
+
+
+
+
+#orangeUI {
+  width: 510px;
+  height: 220px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
 }
